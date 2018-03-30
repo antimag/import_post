@@ -22,14 +22,14 @@ application up and running.
 
 * Endpoint for update a post
 
-* Patch request: localhost:3000/update_post/1001?brand_name=test&product_name=test&email=test@mailinator.com&photo_url=https://dummyimage.com/600x400/000/fff&username=test1&product_desc=test test test 
+* Patch request: "/update_post/1001?brand_name=test&product_name=test&email=test@mailinator.com&photo_url=https://dummyimage.com/600x400/000/fff&username=test1&product_desc=test test test" 
 
 
 * Endpoint for delete a post
 
-* Delete request: http://localhost:3000/delete_post/:post_id
+* Delete request: "/delete_post/:post_id"
 
 
 * Endpoint for fetch a post
 
-* Get request: http://localhost:3000/post_detail/:post_id
+* Get request: "/post_detail/:post_id"
